@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 5px;
+  overflow-x: hidden;
+}
+
+#header div ul {
+  list-style-type: none;
+}
+#header a {
+  text-decoration: none !important;
+  color: darkgray;
+  font-size: 1rem;
+  justify-content: right;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: black;
+  text-shadow: 1px 1px 2px rgb(107, 100, 100), 0 0 0.2em rgb(199, 83, 25);
+}
+#header a span {
+  color: chocolate;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px rgb(252, 6, 6), 0 0 0.2em rgb(252, 87, 10);
+}
+#header .navbar-nav ul a:hover {
+  border-bottom: 2px solid chocolate;
+  color: chocolate;
+  text-shadow: 1px 1px 2px rgb(230, 166, 137);
+  transform: scale(1.2);
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-toggler {
+  background-color: chocolate !important;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+}
+.about .banque {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+  background: linear-gradient(transparent, rgb(66, 62, 62));
+  width: 100%;
+  height: 75vh;
+  top: 25rem;
+  right: 10rem;
+  margin: auto;
+  padding: 2rem;
+}
+.about ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.5rem;
+  list-style: none;
+}
+.about ul li {
+  padding: 1rem;
+}
+.about .name {
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+  color: chocolate;
+  font-size: 1.5rem;
+  width: 50%;
+}
+.about .name a {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(252, 6, 6), 0 0 0.2em rgb(252, 87, 10);
+}
+.about a {
+  color: chocolate;
+}
+
+#rekha {
+  transform: translate(1370px);
+}
+
+.about:hover #rekha {
+  transition: all 1s ease-in;
+  transform: translate(0);
+}
+
+.contact {
+  color: darkgray;
+  margin: auto;
+  font-size: 1.5rem;
+}
+.contact h1 {
+  color: darkgray;
+  text-align: center;
+}
+
+.contact,
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container {
+  box-shadow: 5px 5px 5px rgb(192, 168, 153);
+}
+
+.contact h1 {
+  padding-top: 50px;
+}
+
+.contact-container {
+  border: 2px solid darkgray;
+  padding: 20px;
+  margin: 30px;
+  width: 75%;
+}
+.contact-container p {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+.contact-container p span {
+  color: chocolate;
+}
+.contact-container .contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container .contact-icon a {
+  margin: 1rem;
+  color: chocolate;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10rem auto;
+}
+.skills-container img {
+  text-decoration: none;
+  color: chocolate;
+  border-bottom: 0.2px solid darkgray;
+  width: 100%;
+  height: 100%;
+}
+
+.skills-container img:hover {
+  transform: scale(1.3);
+  transition: all 0.3s ease-out;
+  box-shadow: 20px 20px 30px #ddba93, -30px -30px 50px #e79f41;
+}
+
+.projects-container {
+  text-align: center;
+  margin: auto;
+}
+.projects-container table {
+  width: 100%;
+  color: darkgray;
+  box-shadow: 10px 5px 5px rgb(179, 173, 169);
+}
+.projects-container th {
+  color: chocolate;
+}
+.projects-container th,
+.projects-container td {
+  text-align: center;
+  border: 1px solid darkgray;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.projects-container td {
+  text-align: left;
+  word-break: break-all;
+}
+.projects-container td:hover {
+  transform: scale(1.2);
+  background-color: rgb(170, 161, 161);
+  color: white;
+}
+.projects-container .proj {
+  list-style-type: decimal;
+  margin: auto;
+  padding: 2rem;
+}
+.projects-container .proj li {
+  text-align: left;
+  margin: auto;
+  padding: 1rem;
+}
+
+.footer a {
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  background-color: chocolate;
+  color: black;
+  position: fixed;
+  bottom: 2rem;
+  right: 5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  background: linear-gradient(transparent, chocolate);
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+  table {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

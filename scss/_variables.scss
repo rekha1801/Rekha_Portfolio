@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  $font-color:chocolate;
+  $border-color:darkgray;
+  $font-size: 1.5rem;
+
+  @mixin flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
