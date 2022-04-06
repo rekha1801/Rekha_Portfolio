@@ -168,6 +168,30 @@ body {
   box-shadow: 20px 20px 30px #ddba93, -30px -30px 50px #e79f41;
 }
 
+.card {
+  margin: auto 20px;
+  width: 75%;
+  border-radius: 15px;
+  text-align: center;
+  background: darkgray;
+}
+.card img {
+  height: 30vh;
+}
+.card .card-body {
+  align-items: center;
+}
+
+.card .card-body:hover {
+  max-width: 800px;
+  border-radius: 15px;
+  background: darkgray;
+  box-shadow: 5px 10px 20px #ebcdac, -10px -10px 20px #d3c2ab;
+  transform: scale(1.2);
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+}
+
 .projects-container {
   text-align: center;
   margin: auto;
