@@ -82,7 +82,7 @@ body {
 }
 .about .name a {
   text-decoration: none;
-  text-shadow: 1px 1px 2px rgb(252, 6, 6), 0 0 0.2em rgb(252, 87, 10);
+  text-shadow: 1px 1px 2px rgb(252, 50, 10), 0 0 0.2em rgb(252, 87, 10);
 }
 .about a {
   color: chocolate;
@@ -165,32 +165,33 @@ body {
 .skills-container img:hover {
   transform: scale(1.3);
   transition: all 0.3s ease-out;
-  box-shadow: 20px 20px 30px #ddba93, -30px -30px 50px #e79f41;
+  box-shadow: 5px 5px 10px #ddba93, -10px -10px 20px #e79f41;
 }
 
 .card {
   margin: auto 20px;
   width: 45%;
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
-  background: rgb(238, 175, 58);
-  opacity: 0.7;
+  background: chocolate;
+  opacity: 0.8;
 }
 .card img {
-  height: 30vh;
+  height: 33vh;
 }
 .card .card-body {
   align-items: center;
+  text-align: center;
 }
 
 .card .card-body:hover {
   max-width: 800px;
   border-radius: 15px;
   background: linear-gradient(transparent, white);
-  box-shadow: 5px 10px 20px #ebcdac, -10px -10px 20px #d3c2ab;
+  box-shadow: 5px 5px 10px #ebcdac, -10px -10px 20px #d3c2ab;
   transform: scale(1.3), translate(10%);
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
